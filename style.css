@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
+  box-shadow: 0 0 0.4em rgb(0, 0, 0);
 }
 
 .logoenome {
@@ -48,7 +49,6 @@ body {
 
 .conteudo {
   margin-bottom: 48px;
-  border-top: 2px solid #000000;
 }
 
 .conteudo-principal {
@@ -165,7 +165,7 @@ body {
 .conteudo-secundario2 img {
   max-height: 150px;
 }
-.conteudo-secundario2 a {
+.conteudo-secundario2 p {
   display: flex;
   margin: 20px;
   flex-wrap: wrap;
